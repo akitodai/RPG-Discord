@@ -38,6 +38,30 @@ Selamat datang di **ICAKAP RPG BOT** — Bot Discord bergaya **RPG + Economy** y
 ### 1️⃣ Clone Project
 ```bash
 git clone https://github.com/YOUR_USERNAME/ICAKAP-RPG-BOT.git
-cd ICAKAP-RPG-BOT```
-
+cd ICAKAP-RPG-BOT
+```
 ### 2️⃣ Install Dependensi
+```bash
+npm install
+```
+```bash
+❗❗ Jika Ada kendala atau masalah silahkan hubungi discord.
+```
+
+### 3️⃣ Buat File .env ( wajib ada )
+- File .env di letakkan satu folder awal dengan index.js
+```bash
+TOKEN=YOUR_DISCORD_BOT_TOKEN
+PREFIX=!
+ADMIN_ROLE_ID=YOUR_ADMIN_ROLE_ID
+BOOSTER_ROLE_ID=YOUR_BOOSTER_ROLE_ID
+BOOSTER_MULTIPLIER=2
+```
+
+### 4️⃣ Menjalankan BOT 
+```bash
+# Bisa gunakan
+node index.js
+# atau bisa juga gunakan
+npm start
+```
