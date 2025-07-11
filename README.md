@@ -73,7 +73,7 @@ npm start
 - GitHub: github.com/akitodai
 - Support Server: (Coming Soon)
 - Jika tidak ingin coding bisa gunakan link invite bot ini
-  https://discord.com/oauth2/authorize?client_id=992786152358674483&scope=bot%20applications.commands&permissions=8
+- https://discord.com/oauth2/authorize?client_id=992786152358674483&scope=bot%20applications.commands&permissions=8
 
 ### 🛡️ License
 ### MIT © 2024 ICAKAP DEV
