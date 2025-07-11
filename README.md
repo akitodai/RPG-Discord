@@ -25,11 +25,11 @@ Selamat datang di **ICAKAP RPG BOT** — Bot Discord bergaya **RPG + Economy** y
 
 ## 🚀 **Tech Stack**
 
-- **Node.js 18+**
+- **Node.js 22+**
 - **discord.js v14+**
 - **JSON file database** (flat file)
-- **PM2 / nodemon** *(optional)* ➜ auto restart
-- **Express.js + Socket.io** *(planned untuk panel)*
+- **PM2 / nodemon** *(optional)* ➜ auto restart *Coming Soon*
+- **Express.js + Socket.io** *(planned untuk panel)* *Coming soon*
 
 ---
 
@@ -72,6 +72,8 @@ npm start
 - Discord: yayan.iyan
 - GitHub: github.com/akitodai
 - Support Server: (Coming Soon)
+- Jika tidak ingin coding bisa gunakan link invite bot ini
+  https://discord.com/oauth2/authorize?client_id=992786152358674483&scope=bot%20applications.commands&permissions=8
 
 ### 🛡️ License
 ### MIT © 2024 ICAKAP DEV
