@@ -38,4 +38,6 @@ Selamat datang di **ICAKAP RPG BOT** — Bot Discord bergaya **RPG + Economy** y
 ### 1️⃣ Clone Project
 ```bash
 git clone https://github.com/YOUR_USERNAME/ICAKAP-RPG-BOT.git
-cd ICAKAP-RPG-BOT
+cd ICAKAP-RPG-BOT```
+
+### 2️⃣ Install Dependensi
