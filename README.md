@@ -65,3 +65,13 @@ node index.js
 # atau bisa juga gunakan
 npm start
 ```
+
+---
+
+### 💬 Kontak Developer
+- Discord: yayan.iyan
+- GitHub: github.com/akitodai
+- Support Server: (Coming Soon)
+
+### 🛡️ License
+### MIT © 2024 ICAKAP DEV
