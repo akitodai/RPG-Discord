@@ -1,0 +1,26 @@
+{
+  "965942782923505684": {
+    "gold": 40,
+    "rpgXP": 150,
+    "hp": 100,
+    "inventory": {
+      "ores": {
+        "Coal Ore": 5,
+        "Iron Ore": 4
+      },
+      "woods": {
+        "Birch Log": 2,
+        "Acacia Log": 1,
+        "Jungle Log": 2
+      },
+      "items": {
+        "Small Potion": 1
+      },
+      "equipment": {}
+    },
+    "lastMine": 1751954807508,
+    "lastTimber": 1751951660245,
+    "lastWork": {},
+    "lastHunt": 0
+  }
+}

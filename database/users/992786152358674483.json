@@ -1,0 +1,27 @@
+{
+  "gold": 0,
+  "rpgXP": 0,
+  "level": 1,
+  "nextXP": 100,
+  "baseAtk": 10,
+  "atk": 10,
+  "baseMaxHP": 100,
+  "maxHP": 100,
+  "hp": 100,
+  "chatXP": 0,
+  "bank": 0,
+  "equipped": {
+    "weapon": null,
+    "armor": null
+  },
+  "inventory": {
+    "ores": {},
+    "woods": {},
+    "items": {},
+    "equipment": {}
+  },
+  "lastMine": 0,
+  "lastTimber": 0,
+  "lastWork": {},
+  "lastHunt": 0
+}

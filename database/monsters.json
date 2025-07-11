@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Goblin",
+    "hp": 10,
+    "atk": 5,
+    "xp": 10,
+    "gold": 15,
+    "minLevel": 1
+  },
+  {
+    "name": "Wolf",
+    "hp": 15,
+    "atk": 7,
+    "xp": 15,
+    "gold": 20,
+    "minLevel": 1
+  },
+  {
+    "name": "Orc",
+    "hp": 25,
+    "atk": 10,
+    "xp": 25,
+    "gold": 40,
+    "minLevel": 3
+  },
+  {
+    "name": "Skeleton",
+    "hp": 30,
+    "atk": 12,
+    "xp": 30,
+    "gold": 50,
+    "minLevel": 4
+  },
+  {
+    "name": "Troll",
+    "hp": 40,
+    "atk": 15,
+    "xp": 40,
+    "gold": 70,
+    "minLevel": 5
+  },
+  {
+    "name": "Golem",
+    "hp": 50,
+    "atk": 18,
+    "xp": 50,
+    "gold": 90,
+    "minLevel": 6
+  },
+  {
+    "name": "Wyvern",
+    "hp": 65,
+    "atk": 22,
+    "xp": 65,
+    "gold": 120,
+    "minLevel": 8
+  },
+  {
+    "name": "Vampire",
+    "hp": 80,
+    "atk": 26,
+    "xp": 80,
+    "gold": 160,
+    "minLevel": 10
+  },
+  {
+    "name": "Hydra",
+    "hp": 100,
+    "atk": 30,
+    "xp": 100,
+    "gold": 200,
+    "minLevel": 12
+  },
+  {
+    "name": "Ancient Dragon",
+    "hp": 150,
+    "atk": 40,
+    "xp": 150,
+    "gold": 300,
+    "minLevel": 15
+  }
+]

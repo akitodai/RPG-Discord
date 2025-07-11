@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Bronze Sword",
+    "required": [
+      { "name": "Copper Ore", "amount": 5 },
+      { "name": "Oak Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 1 }
+    ],
+    "resultAmount": 1
+  },
+  {
+    "name": "Iron Sword",
+    "required": [
+      { "name": "Iron Ore", "amount": 5 },
+      { "name": "Birch Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 2 }
+    ],
+    "resultAmount": 1
+  },
+  {
+    "name": "Steel Sword",
+    "required": [
+      { "name": "Iron Ore", "amount": 5 },
+      { "name": "Silver Ore", "amount": 1 },
+      { "name": "Spruce Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 3 }
+    ],
+    "resultAmount": 1
+  },
+  {
+    "name": "Platinum Sword",
+    "required": [
+      { "name": "Gold Ore", "amount": 5 },
+      { "name": "Diamond Ore", "amount": 1 },
+      { "name": "Jungle Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 5 }
+    ],
+    "resultAmount": 1
+  },
+  {
+    "name": "Leather Armor",
+    "required": [
+      { "name": "Oak Log", "amount": 5 },
+      { "name": "Birch Log", "amount": 2 }
+    ],
+    "fuel": [],
+    "resultAmount": 1
+  },
+  {
+    "name": "Iron Armor",
+    "required": [
+      { "name": "Iron Ore", "amount": 8 },
+      { "name": "Spruce Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 2 }
+    ],
+    "resultAmount": 1
+  },
+  {
+    "name": "Steel Armor",
+    "required": [
+      { "name": "Iron Ore", "amount": 8 },
+      { "name": "Silver Ore", "amount": 1 },
+      { "name": "Jungle Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 3 }
+    ],
+    "resultAmount": 1
+  },
+  {
+    "name": "Platinum Armor",
+    "required": [
+      { "name": "Gold Ore", "amount": 8 },
+      { "name": "Diamond Ore", "amount": 1 },
+      { "name": "Acacia Log", "amount": 2 }
+    ],
+    "fuel": [
+      { "name": "Coal Ore", "amount": 5 }
+    ],
+    "resultAmount": 1
+  }
+]

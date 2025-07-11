@@ -1,0 +1,70 @@
+import { embedReply } from '../handlers/embedHandler.js';
+import { getUserData, saveUserData } from '../handlers/serHandler.js';
+import equipment from '../database/equipment.json' with { type: 'json' };
+
+export default {
+  name: 'forge',
+  execute(message, args) {
+    const userId = message.author.id;
+    const userData = getUserData(userId);
+
+    const itemName = args.join(' ');
+    const eq = equipment.find(e => e.name.toLowerCase() === itemName.toLowerCase() && e.forgeable);
+
+    if (!eq) {
+      embedReply(message, {
+        title: '❌ Forge Gagal',
+        description: `**${itemName}** tidak bisa di-forge.`,
+        emoji: '⚒️'
+      });
+      return;
+    }
+
+    const nextTier = eq.tier + 1;
+    const upgraded = equipment.find(e => e.tier === nextTier && e.type === eq.type);
+
+    if (!upgraded) {
+      embedReply(message, {
+        title: '❌ Tidak Ada Upgrade',
+        description: `Tidak ada versi upgrade untuk **${eq.name}**.`,
+        emoji: '⚒️'
+      });
+      return;
+    }
+
+    if ((userData.inventory?.[eq.name] || 0) < 1) {
+      embedReply(message, {
+        title: '❌ Tidak Punya',
+        description: `Kamu tidak punya **${eq.name}**.`,
+        emoji: '🛡️'
+      });
+      return;
+    }
+
+    // Pakai woods atau coal sbg bahan bakar (contoh: 5 Oak)
+    const fuelType = 'Oak';
+    const fuelNeed = 5;
+
+    if ((userData.woods?.[fuelType] || 0) < fuelNeed) {
+      embedReply(message, {
+        title: '❌ Bahan Bakar Kurang',
+        description: `Perlu **${fuelNeed} ${fuelType}** sebagai bahan bakar.`,
+        emoji: '🪵'
+      });
+      return;
+    }
+
+    // Forge: hapus lama ➜ upgrade ➜ kurangi fuel
+    userData.inventory[eq.name] -= 1;
+    userData.woods[fuelType] -= fuelNeed;
+    userData.inventory[upgraded.name] = (userData.inventory[upgraded.name] || 0) + 1;
+
+    embedReply(message, {
+      title: '✅ Forge Sukses',
+      description: `**${eq.name}** berhasil di-forge jadi **${upgraded.name}**!`,
+      emoji: '⚒️'
+    });
+
+    saveUserData(userId, userData);
+  }
+};

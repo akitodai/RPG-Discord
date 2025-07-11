@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bronze Sword",
+    "type": "sword",
+    "atk": 5,
+    "tier": 1,
+    "craftable": true,
+    "forgeable": false
+  },
+  {
+    "name": "Iron Sword",
+    "type": "sword",
+    "atk": 10,
+    "tier": 2,
+    "craftable": true,
+    "forgeable": true
+  },
+  {
+    "name": "Steel Sword",
+    "type": "sword",
+    "atk": 15,
+    "tier": 3,
+    "craftable": true,
+    "forgeable": true
+  },
+  {
+    "name": "Platinum Sword",
+    "type": "sword",
+    "atk": 40,
+    "tier": 6,
+    "craftable": true,
+    "forgeable": true
+  },
+  {
+    "name": "Excalibur",
+    "type": "sword",
+    "atk": 55,
+    "tier": 7,
+    "craftable": false,
+    "forgeable": false
+  },
+  {
+    "name": "Leather Armor",
+    "type": "armor",
+    "maxHP": 20,
+    "tier": 1,
+    "craftable": true,
+    "forgeable": false
+  },
+  {
+    "name": "Iron Armor",
+    "type": "armor",
+    "maxHP": 40,
+    "tier": 2,
+    "craftable": true,
+    "forgeable": true
+  },
+  {
+    "name": "Steel Armor",
+    "type": "armor",
+    "maxHP": 60,
+    "tier": 3,
+    "craftable": true,
+    "forgeable": true
+  },
+  {
+    "name": "Platinum Armor",
+    "type": "armor",
+    "maxHP": 120,
+    "tier": 6,
+    "craftable": true,
+    "forgeable": true
+  },
+  {
+    "name": "Dragon Scale Armor",
+    "type": "armor",
+    "maxHP": 150,
+    "tier": 7,
+    "craftable": false,
+    "forgeable": false
+  }
+]

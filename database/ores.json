@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Coal Ore",
+    "rarity": "Common",
+    "chance": 80,
+    "xp": 5,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "price": 10
+  },
+  {
+    "name": "Iron Ore",
+    "rarity": "Common",
+    "chance": 70,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "xp": 10,
+    "price": 50
+  },
+  {
+    "name": "Copper Ore",
+    "rarity": "Common",
+    "chance": 60,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "xp": 8,
+    "price": 40
+  },
+  {
+    "name": "Silver Ore",
+    "rarity": "Uncommon",
+    "chance": 40,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "xp": 20,
+    "price": 100
+  },
+  {
+    "name": "Gold Ore",
+    "rarity": "Rare",
+    "chance": 25,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "xp": 30,
+    "price": 200
+  },
+  {
+    "name": "Diamond Ore",
+    "rarity": "Epic",
+    "chance": 10,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "xp": 50,
+    "price": 500
+  },
+  {
+    "name": "Mythril Ore",
+    "rarity": "Legendary",
+    "chance": 5,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "xp": 80,
+    "price": 1000
+  }
+]

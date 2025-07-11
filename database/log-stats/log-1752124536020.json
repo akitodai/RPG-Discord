@@ -1,0 +1,19 @@
+{
+  "by": "yayan.iyan",
+  "time": "2025-07-10T05:15:36.019Z",
+  "uptime": "0h 0m 26s",
+  "totalUsers": 3,
+  "totalCommands": 19,
+  "totalGuilds": 1,
+  "totalMembers": 77,
+  "rssMB": "57.66",
+  "apiPing": 280,
+  "localPing": 101,
+  "os": {
+    "type": "Windows_NT",
+    "platform": "win32",
+    "arch": "x64",
+    "release": "10.0.22631",
+    "osUptimeMin": 150
+  }
+}

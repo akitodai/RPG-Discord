@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Oak Log",
+    "rarity": "Common",
+    "minAmount": 1,
+    "maxAmount": 5,
+    "xp": 5,
+    "price": 8,
+    "chance": 80,
+    "burnValue": 5
+  },
+  {
+    "name": "Birch Log",
+    "rarity": "Common",
+    "minAmount": 1,
+    "maxAmount": 4,
+    "xp": 10,
+    "price": 15,
+    "chance": 60,
+    "burnValue": 6
+  },
+  {
+    "name": "Spruce Log",
+    "rarity": "Uncommon",
+    "minAmount": 1,
+    "maxAmount": 3,
+    "xp": 15,
+    "price": 30,
+    "chance": 40,
+    "burnValue": 8
+  },
+  {
+    "name": "Jungle Log",
+    "rarity": "Rare",
+    "minAmount": 1,
+    "maxAmount": 2,
+    "xp": 30,
+    "price": 60,
+    "chance": 25,
+    "burnValue": 12
+  },
+  {
+    "name": "Acacia Log",
+    "rarity": "Epic",
+    "minAmount": 1,
+    "maxAmount": 1,
+    "xp": 40,
+    "price": 120,
+    "chance": 10,
+    "burnValue": 20
+  },
+  {
+    "name": "Dark Oak Log",
+    "rarity": "Legendary",
+    "minAmount": 1,
+    "maxAmount": 1,
+    "xp": 60,
+    "price": 200,
+    "chance": 5,
+    "burnValue": 30
+  }
+]

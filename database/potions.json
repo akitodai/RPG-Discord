@@ -1,0 +1,7 @@
+[
+  { "tier": 1, "name": "Small Potion", "heal": 20, "price": 50 },
+  { "tier": 2, "name": "Medium Potion", "heal": 50, "price": 150 },
+  { "tier": 3, "name": "Large Potion", "heal": 100, "price": 300 },
+  { "tier": 4, "name": "Super Potion", "heal": 200, "price": 600 },
+  { "tier": 5, "name": "Mega Potion", "heal": 500, "price": 1200 }
+]
